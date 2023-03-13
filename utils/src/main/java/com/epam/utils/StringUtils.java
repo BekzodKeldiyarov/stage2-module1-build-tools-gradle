@@ -7,7 +7,12 @@ public class StringUtils {
         if (!NumberUtils.isNumber(str)) {
             return false;
         }
-        return Long.parseLong(str) > 0;
+
+        return Double.parseDouble(str) > 0;
     }
 
+    public static void main(String[] args) {
+//        System.out.println(isPositiveNumber("1.2"));
+        System.out.println(isPositiveNumber("-55.1"));
+    }
 }
