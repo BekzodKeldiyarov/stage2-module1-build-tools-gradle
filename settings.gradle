@@ -1,1 +1,5 @@
 rootProject.name = 'stage2-build-tools-gradle'
+include 'utils'
+include 'demo'
+//Open root settings.gradle file and add two modules: utils, demo
+
